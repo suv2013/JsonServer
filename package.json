@@ -1,0 +1,16 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Fake Rest Api",
+  "main": "index.js",
+  "scripts": {
+    "json:dbserver": "json-server --watch db.json",
+    "json:Movieserver": "json-server --watch movie.json",
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
